@@ -1,4 +1,4 @@
-package com.techprimers.springboot.swaggerexample.resource;
+package com.medsis.vms.springboot.swaggerexample.resource;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModelProperty;

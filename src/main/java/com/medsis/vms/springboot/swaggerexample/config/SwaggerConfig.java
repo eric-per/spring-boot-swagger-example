@@ -1,4 +1,4 @@
-package com.techprimers.springboot.swaggerexample.config;
+package com.medsis.vms.springboot.swaggerexample.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -21,7 +21,7 @@ public class SwaggerConfig {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.techprimers.springboot.swaggerexample"))
+                .apis(RequestHandlerSelectors.basePackage("com.medsis.vms.springboot.swaggerexample"))
                 .paths(regex("/rest.*"))
                 .build()
                 .apiInfo(metaInfo());
@@ -30,12 +30,12 @@ public class SwaggerConfig {
     private ApiInfo metaInfo() {
 
         ApiInfo apiInfo = new ApiInfo(
-                "Spring Boot Swagger Example API",
-                "Spring Boot Swagger Example API for Youtube",
+                "Spring Boot Swagger Example",
+                "Spring Boot Swagger Example API for VMS",
                 "1.0",
                 "Terms of Service",
-                new Contact("TechPrimers", "https://www.youtube.com/TechPrimers",
-                        "techprimerschannel@gmail.com"),
+                new Contact("MEDSiS", "http://medsis.com",
+                        "info@medsis.com"),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licesen.html"
         );

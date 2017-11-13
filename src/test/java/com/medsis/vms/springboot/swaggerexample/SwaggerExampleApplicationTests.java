@@ -1,4 +1,4 @@
-package com.techprimers.springboot.swaggerexample;
+package com.medsis.vms.springboot.swaggerexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

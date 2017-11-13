@@ -1,4 +1,4 @@
-package com.techprimers.springboot.swaggerexample;
+package com.medsis.vms.springboot.swaggerexample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
